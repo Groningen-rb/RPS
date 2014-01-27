@@ -1,4 +1,4 @@
-require "minitest/autorun"
+require 'spec_helper'
 
 describe Game do
 
@@ -6,4 +6,7 @@ describe Game do
     @game = Game.new
   end
 
+  it "initializes as Game" do
+    @game.must_be_instance_of Game
+  end
 end

@@ -7,8 +7,9 @@ Goal
 Build a smart player that beats another player in Rock Paper Scissors best of
 three rounds. Winning player gets 5 points.
 
-Rules
------
+
+Rules of this contest
+---------------------
 
 * Send in one file for each strategy
 * A file should contain exactly one subclass of Player
@@ -17,6 +18,8 @@ Rules
 * Start any data files you write to disk with your initials (ie: **big_daddy**_image.jpg)
 
 
+Rock Paper Scissor
+------------------
 
 There are three items: Rock, Paper and Scissors
 
@@ -24,6 +27,10 @@ There are three items: Rock, Paper and Scissors
 * Scissors beat Paper (scissors cut paper)
 * A Rock beats Scissors (rock breaks scissors)
 * Anything else is a "draw"
+
+
+Bonus: Rock Paper Scissor Lizard Spock
+-------------------------------
 
 The Big Bang Theory version for bonus points:
 
@@ -41,3 +48,8 @@ Points for this bonus:
 
 * When two teams or more implement it: winning team gets *7 points*.
 * When only one team implements is: it gets *2 points* extra.
+
+Bonus: Tests
+------------
+
+

@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby -wU
+#!/usr/bin/env ruby
 
 require 'active_support/core_ext/string'
 require 'highline/import'

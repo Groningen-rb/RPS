@@ -7,4 +7,5 @@ require 'rr'
 require File.expand_path('../../lib/game.rb', __FILE__)
 require File.expand_path('../../players/example_player.rb', __FILE__)
 require File.expand_path('../../players/paper_player.rb', __FILE__)
+require File.expand_path('../../players/winning_player.rb', __FILE__)
 require File.expand_path('../../players/langhaar_noob_player.rb', __FILE__)

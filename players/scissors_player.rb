@@ -1,6 +1,6 @@
 require File.expand_path('../../lib/player.rb', __FILE__)
 
-class ExamplePlayer < Player
+class ScissorsPlayer < Player
 
   # Optional
   #
@@ -10,13 +10,28 @@ class ExamplePlayer < Player
   # Params:
   # - opponent [Class]: String of opponent's class name
   def initialize(opponent)
+    @last_result = nil
+    @last_played = nil
+    @last_opp = nil
   end
 
   # Required
   #
   # Return your choice of :paper, :rock or :scissors
   def choose
-    [:rock, :paper, :scissors, :spock, :lizard].sample
+
+    if @last_result == :lose
+      @last_played
+    elsif @last_result == :win
+      arr = [:rock, :paper, :scissors]
+      arr.delete_if {|item| item == @last_played }
+      arr.sample
+    elsif @last_result == :draw
+      @last_opp
+    else
+      [:rock, :paper, :scissors].sample
+    end
+
   end
 
   # Optional
@@ -28,6 +43,9 @@ class ExamplePlayer < Player
   # - them [Symbol]: Your opponents choice
   # - win_lose_or_draw [Symbol]: holds the result of your choice
   def result(you, them, win_lose_or_draw)
+    @last_result = win_lose_or_draw
+    @last_played = you
+    @last_opp = them
   end
 
 end

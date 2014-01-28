@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby -wU
+#!/usr/bin/env ruby
 
 require 'active_support/core_ext/string'
 require 'highline/import'
@@ -12,6 +12,6 @@ require File.join(__dir__, '../players/', "#{player2.to_s.underscore}_player.rb"
 
 Player.each_pair do |one, two|
   game = Game.new one, two
-  game.play 100
+  game.play 1000
   puts game.results
 end

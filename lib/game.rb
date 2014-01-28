@@ -61,11 +61,11 @@ class Game
       when :lizard
         case hand2
         when :paper
-          win @player2, hand1, hand2
+          win @player1, hand1, hand2
         when :rock
           win @player2, hand1, hand2
         when :scissors
-          win @player1, hand1, hand2
+          win @player2, hand1, hand2
         when :lizard
           draw hand1, hand2
         when :spock
@@ -76,9 +76,9 @@ class Game
       when :spock
         case hand2
         when :paper
-          win @player1, hand1, hand2
-        when :rock
           win @player2, hand1, hand2
+        when :rock
+          win @player1, hand1, hand2
         when :scissors
           win @player1, hand1, hand2
         when :lizard

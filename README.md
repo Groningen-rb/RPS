@@ -11,11 +11,25 @@ three rounds. Winning player gets 5 points.
 Rules of this contest
 ---------------------
 
+### Preparation
+
+* Fork or clone the project
+* Work in your own branch
+
+### The Game
+
+* You can create more than one strategy
 * Send in one file for each strategy
 * A file should contain exactly one subclass of Player
-* Start the name of your subclass with your team-name (ie: **BigDaddy**Player)
+* Start the name of your subclass with your team-name (ie: **Boooyah**Player)
 * Start the name of your files with your team-name (ie: **big_daddy**_support.rb)
-* Start any data files you write to disk with your initials (ie: **big_daddy**_image.jpg)
+* Start any data files you write to disk with your initials (ie:
+    **big_daddy**_image.jpg)
+
+### Submit
+
+* Push your branch
+* Create Pull Request
 
 
 Rock Paper Scissor

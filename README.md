@@ -62,12 +62,11 @@ alt="IMAGE ALT TEXT HERE" width="640" border="10" /></a>
 
 ![Its simple](http://wordpress.morningside.edu/cdl001/files/2010/09/RockPaperScissorsLizardSpock.jpg "It\'s simple!")
 
-Points for this bonus:
 
-* When two teams or more implement it: winning team gets *7 points*.
-* When only one team implements is: it gets *2 points* extra.
+Points
+------
 
-Bonus: Tests
-------------
-
-
+* Winning basic game: 10 points
+* Winning with Lizard Spock: 15 points
+* Winning with player specs/tests: multiply by 1.5
+* Winning by using monkey patching: 3 points in total

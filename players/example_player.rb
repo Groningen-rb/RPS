@@ -8,7 +8,7 @@ class ExamplePlayer < Player
   # **Hint**: Player's __constructor__ sets @opponent
   #
   # Params:
-  # - opponent [String]: String of opponent's class name
+  # - opponent [Class]: String of opponent's class name
   def initialize(opponent)
   end
 
@@ -16,7 +16,7 @@ class ExamplePlayer < Player
   #
   # Return your choice of :paper, :rock or :scissors
   def choose
-    [:paper, :rock, :scissors].sample
+    [:rock, :paper, :scissors].sample
   end
 
   # Optional

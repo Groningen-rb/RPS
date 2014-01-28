@@ -43,10 +43,12 @@ There are three items: Rock, Paper and Scissors
 * Anything else is a "draw"
 
 
-Bonus: Rock Paper Scissor Lizard Spock
--------------------------------
+The Big Bang Bonus: Rock Paper Scissor Lizard Spock
+---------------------------------------------------
 
-The Big Bang Theory version for bonus points:
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=_PUEoDYpUyQ
+" target="_blank"><img src="http://img.youtube.com/vi/_PUEoDYpUyQ/0.jpg"
+alt="IMAGE ALT TEXT HERE" width="640" border="10" /></a>
 
 * Paper beats rock
 * Rock beats lizard

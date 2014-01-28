@@ -10,7 +10,6 @@ class ExamplePlayer < Player
   # Params:
   # - opponent [Class]: String of opponent's class name
   def initialize(opponent)
-    @results = 0
   end
 
   # Required
@@ -29,8 +28,6 @@ class ExamplePlayer < Player
   # - them [Symbol]: Your opponents choice
   # - win_lose_or_draw [Symbol]: holds the result of your choice
   def result(you, them, win_lose_or_draw)
-    puts "#{@results}: #{win_lose_or_draw}"
-    @results += 1
   end
 
 end

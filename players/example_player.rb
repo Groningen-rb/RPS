@@ -16,7 +16,7 @@ class ExamplePlayer < Player
   #
   # Return your choice of :paper, :rock or :scissors
   def choose
-    [:rock, :paper, :scissors].sample
+    [:rock, :paper, :scissors, :spock, :lizard].sample
   end
 
   # Optional

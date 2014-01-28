@@ -58,6 +58,8 @@ The Big Bang Theory version for bonus points:
 * Spock beats rock
 * Rock beats scissors
 
+![Its simple](http://wordpress.morningside.edu/cdl001/files/2010/09/RockPaperScissorsLizardSpock.jpg "It\'s simple!")
+
 Points for this bonus:
 
 * When two teams or more implement it: winning team gets *7 points*.
